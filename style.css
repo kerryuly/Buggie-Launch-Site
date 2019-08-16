@@ -24,6 +24,7 @@
     font-style: normal;
 }
 
+
 html, body{
     font-family: "gilroyextrabold";
     font-weight: bold;
@@ -51,28 +52,65 @@ html, body{
     height: 100vh;
 }
 
+/**************LEFT ***************/
 .landingLeft{
     background-color: #ffcaca;
     width: 40%;
 }   
 
+.siteText{
+    margin-top: 15em;
+    margin-left: 2.5em;
+    margin-right: 1.2em; 
+    /* margin: auto; */
+}
+
+.title{
+    font-size: 5em;
+    color: white;
+    margin: auto;
+}
+
+.description{
+    font-size: 2em;
+    line-height: 2.3em;
+    color: blue;
+}
+
+.longDescript{
+font-size: 1.2rem;
+}
+
+
+
+/* ************** RIGHT ************** */
+
 .landingRight{
-    background-color: #ffffff;
+    background-color: #ffcaca;
+    width: 60%;
+}
+
+.landingImg{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    /* height: 100vh; */
+    width: 180vh;
+
 }
 
 .boxContainer {
 position: absolute;
-display: block;
-background-color: red;
-width: 50vw;
-height: 30vh;
+display: inline-flex;
+/* background-color: red; */
+width: 45vw;
+height: 12vh;
 bottom: 7%;
 left: 5%;
 }
 
 .box1, .box2, .box3  {
-    position: absolute;
-    display: block;
+    display: flex;
     background-color: blue;
     width: 12vw;
     height: 12vh;
@@ -81,19 +119,19 @@ left: 5%;
     color: #ffcaca; 
     text-transform: uppercase;
     font-size: 3em;    
-    text-align: center;
-    
+    margin: auto;
+
 }
 
-.box2{
-left: 30%;
-}
 
-.box3{
-    left: 60%;
-    }
+h1.boxText{
+    margin: auto;
+ }
 
+ .plusBtn{
+justify-self: end;
 
+ }
 
 
 
