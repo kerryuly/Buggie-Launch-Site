@@ -81,7 +81,10 @@ a.nav:hover{
 }
 
 .landingLeft{
+    /* position: fixed; */
     width: 40%;
+    background-color: aqua;
+    position: 
 }   
 
 .siteText{
@@ -100,12 +103,12 @@ a.nav:hover{
 
 .description{
     font-size: 3em;
-    line-height: 12vh;
+    line-height: 8vh;
     color: blue;
 }
 
 .longDescript{
-font-size: 1.3em;
+font-size: 1.5em;
 color: blue;
 }
 
@@ -116,22 +119,18 @@ color: blue;
 .box1:hover, .box2:hover, .box3:hover{
     box-shadow: 5px 5px 25px #ffcaca;
     cursor: pointer;
-    /* font-size: 3.2em; */
-
 }
 
 .boxContainer {
-    position: flex ;
+    position: relative;
     display: inline-flex;
     width: 45vw;
     height: 15vh;
-    margin-top: 70px;
-    margin-left: 2vw;
-    /* background-color: red; */
-    }
-    
+    bottom: -600px;
+    background-color: red;
+}
     .box1, .box2, .box3  {
-        display: flex;
+        display: flex;          
         background-color: blue;
         width: 13vw;
         height: 14vh;
@@ -147,9 +146,15 @@ color: blue;
     
 h1.boxText{
         margin: auto;
+        vertical-align: middle;
+        position: .4s; 
      }
-    
-     .plusBtn{
+
+h1.boxText:hover{
+        
+}
+
+.plusBtn{
     justify-self: end;
     
      }
@@ -163,7 +168,6 @@ h1.boxText{
 
 .landingImg{
     
-
     width: 100%;
 
 }
