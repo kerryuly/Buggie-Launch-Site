@@ -33,6 +33,7 @@ html, body{
     padding:0;
     margin:0;
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 
     
@@ -50,88 +51,126 @@ html, body{
     display: inline-flex;
     width: 100vw;
     height: 100vh;
+    background-color: #ffc6c6;
 }
 
 /**************LEFT ***************/
+
+/* ******** NAV *************** */
+.nav{
+    display: flex;
+    margin: auto;
+    font-size: 1.2em;
+    color: white;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:active{
+    color: blue;
+}
+a.nav:hover{
+    color:  navy;
+
+}
+
+.cornerLogo{
+    /* margin: 30px; */
+}
+
 .landingLeft{
-    background-color: #ffcaca;
     width: 40%;
 }   
 
 .siteText{
-    margin-top: 15em;
-    margin-left: 2.5em;
-    margin-right: 1.2em; 
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 1vh; 
     /* margin: auto; */
 }
 
 .title{
-    font-size: 5em;
+
+    font-size: 7em;
     color: white;
     margin: auto;
 }
 
 .description{
-    font-size: 2em;
-    line-height: 2.3em;
+    font-size: 3em;
+    line-height: 12vh;
     color: blue;
 }
 
 .longDescript{
-font-size: 1.2rem;
+font-size: 1.3em;
+color: blue;
 }
 
+.box1, .box2, .box3{
+    box-shadow: 7px 7px 40px blue;
+}
 
+.box1:hover, .box2:hover, .box3:hover{
+    box-shadow: 5px 5px 25px #ffcaca;
+    cursor: pointer;
+    /* font-size: 3.2em; */
+
+}
+
+.boxContainer {
+    position: flex ;
+    display: inline-flex;
+    width: 45vw;
+    height: 15vh;
+    margin-top: 70px;
+    margin-left: 2vw;
+    /* background-color: red; */
+    }
+    
+    .box1, .box2, .box3  {
+        display: flex;
+        background-color: blue;
+        width: 13vw;
+        height: 14vh;
+        bottom: 50%;
+        left: 15%;
+        color: #ffcaca; 
+        text-transform: uppercase;
+        font-size: 2vw;    
+        margin: auto;
+    
+    }
+    
+    
+h1.boxText{
+        margin: auto;
+     }
+    
+     .plusBtn{
+    justify-self: end;
+    
+     }
 
 /* ************** RIGHT ************** */
 
 .landingRight{
-    background-color: #ffcaca;
+    display: flex;
     width: 60%;
 }
 
 .landingImg{
-    position: absolute;
-    top: 0%;
-    right: 0%;
+    
     /* height: 100vh; */
     width: 180vh;
 
 }
 
-.boxContainer {
-position: absolute;
-display: inline-flex;
-/* background-color: red; */
-width: 45vw;
-height: 12vh;
-bottom: 7%;
-left: 5%;
-}
 
-.box1, .box2, .box3  {
-    display: flex;
-    background-color: blue;
-    width: 12vw;
-    height: 12vh;
-    bottom: 0%;
-    left: 0%;
-    color: #ffcaca; 
-    text-transform: uppercase;
-    font-size: 3em;    
-    margin: auto;
-
-}
-
-
-h1.boxText{
-    margin: auto;
- }
-
- .plusBtn{
-justify-self: end;
-
- }
 
 
 
