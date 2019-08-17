@@ -83,7 +83,7 @@ a.nav:hover{
 .landingLeft{
     /* position: fixed; */
     width: 40%;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: 
 }   
 
@@ -112,6 +112,8 @@ font-size: 1.5em;
 color: blue;
 }
 
+
+
 .box1, .box2, .box3{
     box-shadow: 8px 10px 25px blue;
 }
@@ -122,12 +124,12 @@ color: blue;
 }
 
 .boxContainer {
-    position: relative;
+    position: absolute;
     display: inline-flex;
     width: 45vw;
     height: 15vh;
-    bottom: -600px;
-    background-color: red;
+    bottom: 10vh;
+    /* background-color: red; */
 }
     .box1, .box2, .box3  {
         display: flex;          
