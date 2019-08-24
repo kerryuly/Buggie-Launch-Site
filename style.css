@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Source+Sans+Pro:300,600');
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-
-
 @font-face {
     font-family: 'gilroyextrabold';
     src: url('Fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
@@ -11,172 +6,92 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'geomanistregular';
-    src: url('Fonts/geomanist-regular-webfont.eot');
-    src: url('Fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/geomanist-regular-webfont.woff2') format('woff2'),
-         url('Fonts/geomanist-regular-webfont.woff') format('woff'),
-         url('Fonts/geomanist-regular-webfont.ttf') format('truetype'),
-         url('Fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-html, body{
-    font-family: "gilroyextrabold";
-    font-weight: bold;
-    width: 100%;
-    height: 100%;
-    padding:0;
-    margin:0;
+html,body{
+    font-family: 'gilroyextrabold';
+    font-size: 16px;
+    height:100%;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
-}
-    
-*{
     margin: 0;
-    padding: 0;    
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+    padding: 0;
 }
 
-
+.container-fluid{
+    /* background-color: green; */
+        height: 100%;
+        min-height: 100%;
+   
+}
 .landing{
-    display: inline-flex;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffc6c6;
+    background-image: url("images/Landing Page.svg");
+    background-color: #ffb2ae; 
+    background-repeat: no-repeat;
+
+    /* overflow-x: hidden; */
 }
 
-/**************LEFT ***************/
-
-/* ******** NAV *************** */
-.nav{
-    display: flex;
-    margin: auto;
-    font-size: 1.2em;
-    color: white;
-    padding-top: 20px;
-    margin-left: 15px;
+.row{
+   /* background-color: aqua; */
+   height: 100%;
 }
 
-a{
-    text-decoration: none;
-    text-transform: uppercase;
-}
-a:active{
-    color: blue;
-}
-a.nav:hover{
-    color:  navy;
-
-}
-
-.cornerLogo{
-    /* margin: 30px; */
-}
-
-.landingLeft{
-    /* position: fixed; */
-    width: 40%;
-    /* background-color: aqua; */
-    position: 
-}   
-
-.siteText{
-    margin-top: 3vh;
-    margin-left: 3vw;
-    margin-right: 1vh; 
-    /* margin: auto; */
-}
-
-.title{
-
-    font-size: 7em;
-    color: white;
-    margin: auto;
-}
-
-.description{
-    font-size: 3em;
-    line-height: 8vh;
-    color: blue;
-}
-
-.longDescript{
-font-size: 1.5em;
-color: blue;
-}
-
-
-
-.box1, .box2, .box3{
-    box-shadow: 8px 10px 25px blue;
-}
-
-.box1:hover, .box2:hover, .box3:hover{
-    box-shadow: 5px 5px 25px #ffcaca;
-    cursor: pointer;
-}
-
-.boxContainer {
-    position: absolute;
-    display: inline-flex;
-    width: 45vw;
-    height: 15vh;
-    bottom: 10vh;
+.leftSide{
     /* background-color: red; */
-}
-    .box1, .box2, .box3  {
-        display: flex;          
-        background-color: blue;
-        width: 13vw;
-        height: 14vh;
-        bottom: 50%;
-        left: 15%;
-        color: #ffcaca; 
-        text-transform: uppercase;
-        font-size: 2vw;    
-        margin: auto;
-    
-    }
-    
-    
-h1.boxText{
-        margin: auto;
-        vertical-align: middle;
-        position: .4s; 
-     }
+} 
 
-h1.boxText:hover{
-        
+.right{
+    /* background-color: blue; */
 }
 
-.plusBtn{
-    justify-self: end;
-    
-     }
-
-/* ************** RIGHT ************** */
-
-.landingRight{
-    display: flex;
-    width: 60%;
-}
-
-.landingImg{
-    
-    width: 100%;
-
+.siteTitle{
+    font-size: 2rem;
+    text-align: right;
+    padding: 4em 1.5em 0em 0em;
+    color: #f4523e;
 }
 
 
+.tagline{
+    font-size: 5rem;
+    text-align: right;
+    padding: 0em .8em 0em 0em;
+    color: #001370;
+}
 
+.rightLeft{
+/* background-color: blue; */
+}
+.rightRight{
+/* background-color: brown; */
+}
 
+.contactBtn{
+    border: 2px solid #001370;
+    color: #001370;
+}
 
+.learnBtn{
+    color: white;
+    background-color: #f4523e;
+    border: none;
+    
+}
 
+.learnBtn, .contactBtn{
+
+    font-size: 30px;
+    padding: .5rem 2rem .5rem 2rem;
+    /* margin: auto; */
+
+}
+
+/* BUTTON HOVER */
+.learnBtn:hover {
+    background-color: white;
+    color: #f4523e;
+  }
+  .contactBtn:hover {
+    border: 2.5px solid #f4523e;
+    background-color: #ffb2ae;
+    color: #f4523e;
+  }
 
