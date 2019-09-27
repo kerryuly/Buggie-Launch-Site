@@ -1,97 +1,106 @@
 @font-face {
     font-family: 'gilroyextrabold';
     src: url('Fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-         url('Fonts/gilroy-extrabold-webfont.woff') format('woff');
+        url('Fonts/gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-html,body{
+html,
+body {
     font-family: 'gilroyextrabold';
     font-size: 16px;
-    height:100%;
+    height: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
 
-.container-fluid{
+.container-fluid {
     /* background-color: green; */
-        height: 100%;
-        min-height: 100%;
-   
+    height: 100%;
+    min-height: 100%;
+
 }
-.landing{
-    background-image: url("images/Landing Page.svg");
-    background-color: #ffb2ae; 
+
+.landing {
+    background-color: #ffb2ae;
     background-repeat: no-repeat;
-
-    /* overflow-x: hidden; */
 }
 
-.row{
-   /* background-color: aqua; */
-   height: 100%;
+.row {
+    height: 100%;
 }
 
-.leftSide{
-    /* background-color: red; */
-} 
 
-.right{
-    /* background-color: blue; */
-}
-
-.siteTitle{
+.siteTitle {
     font-size: 2rem;
     text-align: right;
     padding: 4em 1.5em 0em 0em;
     color: #f4523e;
 }
 
-
-.tagline{
-    font-size: 5rem;
-    text-align: right;
-    padding: 0em .8em 0em 0em;
-    color: #001370;
+.leftSide {
+    padding: .5em 0em .5em 3em;
 }
 
-.rightLeft{
-/* background-color: blue; */
-}
-.rightRight{
-/* background-color: brown; */
-}
-
-.contactBtn{
-    border: 2px solid #001370;
-    color: #001370;
+.tagline {
+    font-size: 5em;
+    padding: 0em .8em 2em 0em;
+    color: #ff87c0;
 }
 
-.learnBtn{
+.landing_buttons {
+    margin: 0em 1em;
+}
+
+.contactBtn {
+    background-color: #80bca1;
     color: white;
-    background-color: #f4523e;
-    border: none;
-    
 }
 
-.learnBtn, .contactBtn{
+.learnBtn {
+    color: white;
+    background-color: #ff87c0;
+    border: none;
+
+}
+
+.learnBtn,
+.contactBtn {
 
     font-size: 30px;
     padding: .5rem 2rem .5rem 2rem;
-    /* margin: auto; */
 
 }
 
 /* BUTTON HOVER */
 .learnBtn:hover {
     background-color: white;
-    color: #f4523e;
-  }
-  .contactBtn:hover {
-    border: 2.5px solid #f4523e;
-    background-color: #ffb2ae;
-    color: #f4523e;
-  }
+    color: #ff87c0;
+}
 
+.contactBtn:hover {
+    background-color: white;
+    color: #80bca1;
+}
+
+
+
+/* @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  } */
