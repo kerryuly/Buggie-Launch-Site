@@ -1,104 +1,157 @@
 @font-face {
-    font-family: 'gilroyextrabold';
-    src: url('Fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-        url('Fonts/gilroy-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'gilroyextrabold';
+	src: url('Fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
+		url('Fonts/gilroy-extrabold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 html,
 body {
-    font-family: 'gilroyextrabold';
-    font-size: 16px;
-    height: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+	font-family: 'gilroyextrabold';
+	font-size: 16px;
+	height: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
 }
 
 .container-fluid {
-    /* background-color: green; */
-    height: 100%;
-    min-height: 100%;
-
+	/* background-color: green; */
+	height: 100%;
+	min-height: 100%;
 }
 
 .landing {
-    background-color: #ffb2ae;
-    background-repeat: no-repeat;
+	background-color: #ffb2ae;
+	background-repeat: no-repeat;
 }
 
 .row {
-    height: 100%;
+	height: 100%;
 }
 
+#site-img {
+	padding: 0;
+	margin: 0;
+}
 
 .siteTitle {
-    font-size: 2rem;
-    text-align: right;
-    padding: 4em 1.5em 0em 0em;
-    color: #f4523e;
+	font-size: 2rem;
+	text-align: right;
+	padding: 4em 1.5em 0em 0em;
+	color: #f4523e;
 }
 
 .leftSide {
-    padding: .5em 0em .5em 3em;
+	padding: .5em 0em .5em 3em;
 }
 
 .tagline {
-    font-size: 5em;
-    padding: 0em .8em 2em 0em;
-    color: #ff87c0;
+	font-size: 5em;
+	padding: 0em .8em 2em 0em;
+	color: #ff87c0;
 }
 
+.buttons{
+	margin: 0px;
+	padding:0px; 
+}
 .landing_buttons {
-    margin: 0em 1em;
+	margin: 0em 1em;
 }
 
 .contactBtn {
-    background-color: #80bca1;
-    color: white;
+	background-color: #80bca1;
+	color: white;
+	border: none;
 }
 
 .learnBtn {
-    color: white;
-    background-color: #ff87c0;
-    border: none;
-
+	color: white;
+	background-color: #ff87c0;
+	border: none;
 }
 
 .learnBtn,
 .contactBtn {
-
-    font-size: 30px;
-    padding: .5rem 2rem .5rem 2rem;
-
+	font-size: 30px;
+	padding: .5rem 2rem .5rem 2rem;
 }
 
 /* BUTTON HOVER */
 .learnBtn:hover {
-    background-color: white;
-    color: #ff87c0;
+	background-color: white;
+	color: #ff87c0;
 }
 
 .contactBtn:hover {
-    background-color: white;
-    color: #80bca1;
+	background-color: white;
+	color: #80bca1;
 }
 
 /***************************** onboarding ********************** */
+.onboarding-left,
+.onboarding-middle {
+	margin: 0px;
+	padding: 0px;
 
+}
 
+.col1-bottom {
+	/* padding-top: 50em; */
+}
 
+.descipt-text {
+	font-size: 3rem;
+	padding: 4rem 1rem;
 
+}
 
+.onboarding-text {
+	color: #ff87c0;
+}
 
-/* @include media-breakpoint-up(sm) {
-    html {
-      font-size: 1.2rem;
-    }
-  }
-  
-  @include media-breakpoint-up(md) {
+.onboarding {
+	padding: 0;
+	margin: 0;
+	padding: 3rem 0rem;
+}
+
+.onboarding-container {
+	width: 80vw;
+	margin-top: 3rem;
+}
+
+.onboarding-right {
+	margin-top: 3rem;
+}
+
+#phone2 {
+	margin: 0;
+	padding: 0;
+
+}
+
+#phone3-text {
+	padding-top: 20rem;
+}
+
+@media (max-width: 2560px) {
+	body {
+		font-size: 14px;
+		background-color: rgb(0, 17, 255);
+	}
+}
+
+@media (max-width: 1200px) {
+	body {
+		font-size: 10px;
+		background-color: red;
+	}
+}
+
+/* @include media-breakpoint-up(md) {
     html {
       font-size: 1.4rem;
     }
@@ -108,4 +161,4 @@ body {
     html {
       font-size: 1.6rem;
     }
-  } */
+  }  */
