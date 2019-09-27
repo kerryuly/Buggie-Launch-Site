@@ -9583,6 +9583,7 @@ input[type=radio] + label:before {
 .bg-light {
   background-color: #fff !important;
 }
+
 .bg-dark {
   background-color: #2f1893 !important;
 }
